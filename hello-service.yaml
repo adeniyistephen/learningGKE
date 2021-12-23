@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: myapp-service
+spec:
+  selector:
+    app: myapp
+    version: green
+  ports:
+  - protocol: TCP
+    port: 3434
+    targetPort: 3434
+  type: LoadBalancer
