@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: gcr.io/my-personal-1/hello:green
+        image: gcr.io/my-personal-1/hello:greenV2
         ports:
         - containerPort: 3434
